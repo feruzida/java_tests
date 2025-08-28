@@ -14,7 +14,6 @@ public class Main {
         ArrayList<Book> library = new ArrayList<>();
         library.add(new Book(1, "Harry Potter"));
         library.add(new Book(2, "Java Basics"));
-
         System.out.println("All books:");
         for (Book b : library) {
             System.out.println(b.id + ": " + b.name);
